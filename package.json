@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-typescript-rest-api",
+  "version": "1.0.0",
+  "description": "RESTful api with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanj1919/nodejs-typescript-REST-api.git"
+  },
+  "author": "mohan kumar j",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanj1919/nodejs-typescript-REST-api/issues"
+  },
+  "homepage": "https://github.com/mohanj1919/nodejs-typescript-REST-api#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/express": "^4.0.35",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.18",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "typescript": "^2.3.2"
+  }
+}
